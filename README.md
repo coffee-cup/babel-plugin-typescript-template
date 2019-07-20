@@ -42,3 +42,9 @@ for detailed information on how to write a plugin.
 - [AST Explorer](https://astexplorer.net/)
 - [Babel AST Spec](https://github.com/babel/babel/blob/master/packages/babel-parser/ast/spec.md)
 - [Babel types](https://babeljs.io/docs/en/babel-types)
+- [Babel core plugins](https://github.com/babel/babel/tree/master/packages)
+
+## Interested?
+
+If you are interested in trying out the alpha for the demo that was shown at the
+end of the session, please get in touch!
