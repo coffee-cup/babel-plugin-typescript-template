@@ -43,6 +43,7 @@ for detailed information on how to write a plugin.
 - [Babel AST Spec](https://github.com/babel/babel/blob/master/packages/babel-parser/ast/spec.md)
 - [Babel types](https://babeljs.io/docs/en/babel-types)
 - [Babel core plugins](https://github.com/babel/babel/tree/master/packages)
+- [Babel plugin macros](https://github.com/kentcdodds/babel-plugin-macros)
 
 ## Interested?
 
