@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-plugin-prettier",
+    "tslint-config-prettier"
+  ],
+  "linterOptions": {
+    "exclude": ["config/**/*.js", "node_modules/**/*.ts"]
+  },
+  "rules": {
+    "jsx-no-lambda": false,
+    "no-console": false,
+    "prettier": [true, { "bracketSpacing": true, "trailingComma": "all" }],
+    "no-empty": [true, "allow-empty-catch", "allow-empty-functions"],
+    "no-shadowed-variable": false,
+    "interface-name": false,
+    "jsx-boolean-value": false,
+    "object-literal-sort-keys": false,
+    "no-eval": false,
+    "member-ordering": false,
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-pascal-case",
+      "allow-leading-underscore"
+    ]
+  }
+}

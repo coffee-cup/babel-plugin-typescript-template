@@ -1,0 +1,44 @@
+{
+  "name": "babel-plugin-typescript-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "clean": "rm -rf lib tsconfig.tsbuildinfo",
+    "build": "tsc -p .",
+    "lint": "set -ex; tsc --noEmit -p .; tslint --project .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-syntax-jsx": "^7.2.0",
+    "@babel/template": "^7.1.2",
+    "@babel/types": "^7.1.6",
+    "get-stdin": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/babel__core": "^7.1.2",
+    "@types/babel__traverse": "^7.0.7",
+    "@types/get-stdin": "^7.0.0",
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.6.8",
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "tslint-react": "^4.0.0",
+    "typescript": "^3.5.3"
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/tests"
+    ],
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    }
+  }
+}
