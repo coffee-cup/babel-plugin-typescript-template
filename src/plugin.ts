@@ -1,5 +1,4 @@
-import { PluginObj, types as t } from "@babel/core";
-import { NodePath } from "@babel/traverse";
+import { PluginObj, types as t, NodePath } from "@babel/core";
 import { State } from "./types";
 
 export default (state: State): PluginObj => ({
