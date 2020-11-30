@@ -1,5 +1,7 @@
 # Babel Plugin Typescript Template
 
+![Build and Test](https://github.com/coffee-cup/babel-plugin-typescript-template/workflows/Build%20and%20Test/badge.svg)
+
 This repo is a template you can use to experiment and play around with babel
 plugins.
 
